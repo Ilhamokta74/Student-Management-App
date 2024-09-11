@@ -89,7 +89,7 @@
             <div class="col-md-3">
                 <div class="sidebar">
                     <a href="#home" class="active">Home</a>
-                    <a href="#news">Student</a>
+                    <a href="/student">Student</a>
                     <a href="#contact">Teacher</a>
                     <a href="#about">Courses</a>
                     <a href="#contact">Enrollment</a>
@@ -98,9 +98,7 @@
             </div>
 
             <div class="col-md-9">
-                <div class="content">
-                   @yield('content')
-                </div>
+                @yield('content')
             </div>
         </div>
     </div>
